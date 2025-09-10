@@ -1,0 +1,33 @@
+<!-- And those who fear are lost -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Number Guessing</h1>
+        <h2>Binary Search Introducer</h2>
+    </header>
+   
+    <hr>
+    <p>This is an old (maybe even ancient!) game called <strong class="strong">'Guess the Number.'</strong> 
+        You could say it’s an idea that inspired the <a id="link" href="https://en.wikipedia.org/wiki/Binary_search" class="strong">Binary Search</a> algorithm. Let’s dive in!
+    </p>
+    <div>
+        <input autocomplete="off" placeholder="Enter number betwin 1 to 100." type="number" id="userGuess">
+        <button id="buttonArea" class="button" onclick="checkGuess()">Guess!</button>
+    </div>
+
+    <div id="textBox">
+        <span id="cnt">0 Try</span>
+        <span style="color:#D62E00;">|</span>
+        <span id="historyText" style="font-weight: bold;">Lets Go</span>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
